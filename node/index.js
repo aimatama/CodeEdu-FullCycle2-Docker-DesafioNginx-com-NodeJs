@@ -74,7 +74,7 @@ app.get('/', async (req,res) => {
     nameArray = await Main();
     res.send( `
         <h1>Full Cycle Rocks!</h1>
-        <h2>Bem-vindo ao curso Full Cycle da Code Education! Abaixo a lista dos últimos alunos matriculados:</h2>
+        <h2>Bem-vindo ao curso Full Cycle da Code Education!!! Abaixo a lista dos últimos alunos matriculados:</h2>
         ${nameArray}
     `);
 })
